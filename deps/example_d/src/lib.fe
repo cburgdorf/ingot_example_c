@@ -1,0 +1,10 @@
+use example_a::get_sum
+
+pub fn sum_a_plus_10() -> u256 {
+    return 10 + example_a::get_sum()
+}
+
+#test
+fn test_main(mut ctx: Context) {
+    assert sum_a_plus_10() == 1110
+}

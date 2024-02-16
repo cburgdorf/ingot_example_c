@@ -1,0 +1,5 @@
+name = "example_d"
+version = "1.0"
+
+[dependencies]
+example_a = { version = "1.0", source="https://github.com/cburgdorf/ingot_example_a", rev="62e530c6d2f0cb800e04c30a285b8ee08097291a" }

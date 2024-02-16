@@ -1,0 +1,1 @@
+This is an example ingot used for tests
